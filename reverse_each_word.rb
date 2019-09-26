@@ -6,5 +6,5 @@ def reverse_each_word(str)
   reverse_arr = new_Arr.map { |element| element.reverse}
   #join the array with a space between each element
   reverse_arr.join(" ")
-  
+
 end
