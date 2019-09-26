@@ -3,7 +3,7 @@ def reverse_each_word(str)
   new_Arr = str.split(' ')
 
   #loop through the array and reverse each element
-  reverse_arr = new_Arr.map { |element| element.reverse}
+  reverse_arr = new_Arr.collect { |element| element.reverse}
   #join the array with a space between each element
   reverse_arr.join(" ")
 
